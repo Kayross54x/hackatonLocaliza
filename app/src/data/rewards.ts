@@ -170,7 +170,7 @@ export const rewards: Reward[] = [
     category: 'carro',
     highlight: 'Grátis',
     title: 'Lavagem completa',
-    description: 'Uma lavagem completa (externa + interna) para deixar o seu Meoo brilhando.',
+    description: 'Uma lavagem completa (externa + interna) para deixar o seu carro brilhando.',
     cost: 30,
     validity: 'Válido por 30 dias',
     terms: ['Válido para carros de passeio', 'Agendamento pelo app do parceiro'],
@@ -201,7 +201,7 @@ export const rewards: Reward[] = [
     description: 'Alugue um carro na Localiza e suba uma categoria sem pagar a mais.',
     cost: 200,
     validity: 'Válido por 120 dias',
-    terms: ['Sujeito à disponibilidade da frota', 'Reserva com o CPF do titular Meoo'],
+    terms: ['Sujeito à disponibilidade da frota', 'Reserva com o CPF do titular da assinatura'],
     codePrefix: 'UPG',
   },
   {
@@ -220,7 +220,7 @@ export const rewards: Reward[] = [
   },
   {
     id: 'fatura',
-    partner: 'Localiza Meoo',
+    partner: 'Localiza Assinatura',
     mark: 'L',
     color: '#74d62c',
     ink: '#004a23',

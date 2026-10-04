@@ -9,7 +9,7 @@ export function RentalDiscount() {
   const { showToast } = useStore()
   const [rules, setRules] = useState(false)
   return (
-    <Screen back title="Benefícios Meoo">
+    <Screen back title="Benefícios Localiza Assinatura">
       <div className="px-5 pb-6">
         <Card className="p-5">
           <div className="flex justify-center">
@@ -17,7 +17,7 @@ export function RentalDiscount() {
           </div>
           <p className="mt-5 text-center text-lg font-bold">15% de desconto no aluguel diário de carros na Localiza.</p>
           <div className="mt-4 rounded-xl bg-lime-soft p-3 text-sm text-brand">
-            Cliente Meoo automaticamente entra na categoria Gold ou Platinum no programa de fidelidade Localiza.
+            Cliente Localiza Assinatura automaticamente entra na categoria Gold ou Platinum no programa de fidelidade Localiza.
           </div>
           <p className="mt-5 mb-2 font-semibold">Aluguel diário</p>
           <Button block onClick={() => showToast('Código copiado com sucesso!')}>
@@ -26,7 +26,7 @@ export function RentalDiscount() {
           <Button block variant="outline" className="mt-2" onClick={() => showToast('Código copiado com sucesso!')}>
             Reservar no app ↗
           </Button>
-          <p className="mt-3 text-xs text-muted">Para resgatar, faça a reserva com o CPF do titular do contrato Meoo.</p>
+          <p className="mt-3 text-xs text-muted">Para resgatar, faça a reserva com o CPF do titular do contrato de assinatura.</p>
         </Card>
         <Card className="mt-3">
           <button onClick={() => setRules(!rules)} className="flex w-full items-center gap-3 p-4 text-left">
@@ -117,7 +117,7 @@ export function ReferralProgram() {
       <div className="space-y-3 px-4 py-4">
         <Card className="p-4">
           <ReferralIllustration />
-          <p className="mt-2 text-sm">Compartilhe o seu link para indicar o Localiza Meoo!</p>
+          <p className="mt-2 text-sm">Compartilhe o seu link para indicar a Localiza Assinatura!</p>
           <Button block size="sm" variant="soft" className="mt-3" onClick={() => showToast('Link copiado!')}>
             <Share2 size={16} /> Compartilhar meu link
           </Button>
@@ -126,7 +126,7 @@ export function ReferralProgram() {
           <span className="grid h-14 w-14 shrink-0 place-items-center rounded-xl bg-lime-soft">
             <FileText className="text-brand" />
           </span>
-          <p className="text-sm">Ou informe aqui os dados da pessoa a quem você quer indicar Localiza Meoo.</p>
+          <p className="text-sm">Ou informe aqui os dados da pessoa a quem você quer indicar a Localiza Assinatura.</p>
         </Card>
         <Button block variant="outline" onClick={() => navigate('/indicacao/lista')}>
           VISUALIZAR MINHAS INDICAÇÕES
@@ -173,7 +173,7 @@ export function ReferralNew() {
         <div className="flex gap-3 rounded-xl bg-surface p-3 text-xs text-muted">
           <CircleAlert size={18} className="shrink-0 text-brand" />
           <p>
-            <b>Atenção:</b> é importante avisar à pessoa a quem você quer indicar Localiza Meoo que os dados dela serão compartilhados.
+            <b>Atenção:</b> é importante avisar à pessoa a quem você quer indicar a Localiza Assinatura que os dados dela serão compartilhados.
             Levamos a sério todos os dados pessoais.
           </p>
         </div>

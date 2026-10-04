@@ -85,7 +85,7 @@ export function Help() {
             <SupportCard icon={TriangleAlert} title="Emergência" text="Suporte 24h para urgências" danger onClick={() => navigate('/ajuda/emergencia')} />
             <SupportCard icon={Siren} title="Danos" text="Registro de acidentes/batidas" onClick={() => navigate('/ajuda/ocorrencia')} />
             <SupportCard icon={Phone} title="Fale conosco" text="Pelo WhatsApp, email ou ligação" onClick={() => navigate('/ajuda/liza')} />
-            <SupportCard icon={CircleHelp} title="Dúvidas" text="Respostas sobre o Meoo" onClick={() => navigate('/ajuda/central')} />
+            <SupportCard icon={CircleHelp} title="Dúvidas" text="Respostas sobre a Assinatura" onClick={() => navigate('/ajuda/central')} />
           </div>
         </div>
       )}
@@ -265,13 +265,13 @@ export function OccurrenceTracking() {
 }
 
 export function HelpCenter() {
-  const links = ['Sobre o Localiza Meoo', 'Carro provisório', 'Entrega do carro zero', 'Gestão do contrato', 'Pagamentos e faturas', 'Agendamentos de serviços']
+  const links = ['Sobre a Localiza Assinatura', 'Carro provisório', 'Entrega do carro zero', 'Gestão do contrato', 'Pagamentos e faturas', 'Agendamentos de serviços']
   const faq = ['Quais são as funcionalidades do app?', 'Como funciona a franquia de km?', 'O que fazer em caso de multa?']
   return (
     <Screen back title="Central de ajuda">
       <div className="px-5 pb-6">
         <Logo className="mx-auto mb-4 h-7" />
-        <h1 className="text-2xl font-extrabold text-brand">Boas vindas à Central de ajuda para Clientes Localiza Meoo</h1>
+        <h1 className="text-2xl font-extrabold text-brand">Boas vindas à Central de ajuda para Clientes Localiza Assinatura</h1>
         <p className="mt-2 text-sm text-muted">Como podemos te ajudar?</p>
         <label className="mt-3 flex h-11 items-center gap-2 rounded-xl border border-line px-3">
           <input placeholder="Digite aqui o que você deseja encontrar..." className="flex-1 text-sm outline-none" />

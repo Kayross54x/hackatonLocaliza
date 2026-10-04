@@ -14,7 +14,7 @@ export type DayReport = {
   km: number
   liters: number
   kmPerLiter: number
-  /** Percentil: melhor que X% dos motoristas Meoo */
+  /** Percentil: melhor que X% dos motoristas Localiza Assinatura */
   score: number
   factors: ScoreFactor[]
   trips: number
@@ -96,7 +96,7 @@ function generate(): DayReport[] {
 export const days = generate()
 export const lastDay = days.find((d) => d.id === LAST_DRIVE_ID)!
 
-/** Média da base Meoo, usada para comparação */
+/** Média da base Localiza Assinatura, usada para comparação */
 export const fleetAverage = { kmPerLiter: 11.6, kmPerDay: 52 }
 
 /** Regra de conversão score → LocaCoins */

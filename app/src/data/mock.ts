@@ -3,7 +3,7 @@
 export const user = {
   name: 'Ana Oliveira',
   firstName: 'Ana',
-  email: 'meooteste@email.com',
+  email: 'assinaturateste@email.com',
   cpf: '123.456.789-00',
   phone: '(31) 99876-5432',
 }
@@ -183,7 +183,7 @@ export const benefitsCarousel = [
     id: 'indique',
     badge: 'Até R$ 2.000',
     title: 'Indique e ganhe',
-    text: 'Ganhe R$2.000 por indicação que assinar um Meoo',
+    text: 'Ganhe R$2.000 por indicação que assinar a Localiza Assinatura',
     cta: 'Indicar',
     image: '/img/benef-indique.png',
     to: '/indicacao',

@@ -1,4 +1,4 @@
-# Localiza Meoo · MVP (LocaCoins)
+# Localiza Assinatura · MVP (LocaCoins)
 
 Réplica web, só para celular, do app Localiza Assinatura, base para o MVP do sistema de recompensas LocaCoins (hackathon Ruptura 2026, Case 2).
 
@@ -11,7 +11,7 @@ npm run dev
 
 Abra http://localhost:5180. No computador, o app aparece dentro de uma moldura de iPhone com um painel de demo (reiniciar dados / sair). No celular (mesma rede Wi-Fi), use o endereço "Network" mostrado no terminal.
 
-Login: qualquer e-mail válido (já vem preenchido `meooteste@email.com`). Todos os dados são fictícios e ficam salvos no localStorage do navegador.
+Login: qualquer e-mail válido (já vem preenchido `assinaturateste@email.com`). Todos os dados são fictícios e ficam salvos no localStorage do navegador.
 
 ## Estrutura
 

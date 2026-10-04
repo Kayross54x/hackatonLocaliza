@@ -191,7 +191,7 @@ export function DayReportBody({ day, showClaim = true }: { day: DayReport; showC
               <Leaf size={11} /> {tier.label}
             </span>
             <p className="mt-2 text-lg leading-snug font-bold">
-              Você dirigiu melhor que <span className="text-lime">{day.score}%</span> dos motoristas Meoo
+              Você dirigiu melhor que <span className="text-lime">{day.score}%</span> dos motoristas Localiza Assinatura
             </p>
           </div>
         </div>
@@ -235,7 +235,7 @@ export function DayReportBody({ day, showClaim = true }: { day: DayReport; showC
               <FactorBar key={f.key} label={f.label} detail={f.detail} value={f.value} />
             ))}
             <p className="rounded-xl bg-surface p-3 text-xs text-muted">
-              O score compara o desgaste do carro (freios, motor, acelerações e marcha lenta) com o de outros motoristas Meoo
+              O score compara o desgaste do carro (freios, motor, acelerações e marcha lenta) com o de outros motoristas Localiza Assinatura
               em trajetos parecidos. Quanto melhor você cuida do carro, mais LocaCoins ganha.
             </p>
             <div className="grid grid-cols-4 gap-1.5 text-center">

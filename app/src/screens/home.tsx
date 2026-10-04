@@ -144,7 +144,7 @@ export function Home() {
         </Link>
       </Card>
 
-      <SectionTitle>Benefícios Meoo</SectionTitle>
+      <SectionTitle>Benefícios Localiza Assinatura</SectionTitle>
       <div className="no-scrollbar flex snap-x gap-3 overflow-x-auto px-5 pb-6">
         <LocaCoinsPromo />
         {benefitsCarousel.map((b) => (
@@ -355,7 +355,7 @@ export function Profile() {
   const navigate = useNavigate()
   const { update } = useStore()
   return (
-    <Screen back largeTitle="Meus dados" subtitle="Informações da sua conta Localiza Meoo.">
+    <Screen back largeTitle="Meus dados" subtitle="Informações da sua conta Localiza Assinatura.">
       <div className="px-5">
         <div className="mb-4 flex items-center gap-3">
           <div className="grid h-14 w-14 place-items-center rounded-full bg-lime-soft text-xl font-bold text-brand">

@@ -128,7 +128,7 @@ export const missions: Mission[] = [
     id: 'm-friend',
     period: 'mensal',
     title: 'Traga um amigo',
-    description: 'Indique alguém para o Localiza Meoo.',
+    description: 'Indique alguém para a Localiza Assinatura.',
     reward: 150,
     icon: 'friend',
     kind: { type: 'goto', to: '/indicacao/nova', cta: 'Indicar' },
